@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="victorsanchez" constructor="clicktoact" version="0.0.3" display-name-key="clicktoact" description-key="clicktoact description" control-type="standard" >
+    <property name="value" display-name-key="fieldValue" description-key="fieldValueDesc" of-type-group="Text" usage="bound" required="true" hidden="true" />
+    <property name="iconUrl" display-name-key="iconUrl" description-key="iconUrl Desc" of-type="SingleLine.Text" usage="input" required="false" hidden="false" />
+  <type-group name="Text">
+    <type>SingleLine.Text</type>
+    <type>SingleLine.Phone</type>
+  </type-group>
+    <resources>
+      <code path="index.ts" order="1"/>
+      <css path="css/clicktoact.css" order="1"/>
+    </resources>
+  </control>
+</manifest>
+
